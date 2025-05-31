@@ -1,9 +1,18 @@
 # 🏊🏻 Process Capability Indices and interpretation in Manufacturing operations using Microsoft Excel
-This repository represents a structured analysis of process capability study in a steel manufacturing workflow involving three sequential machines: 
+This repository represents a structured analysis of process capability study in a steel manufacturing workflow involving sequential machines for: 
 
-1. **Rolling**
-2. **Cutting**
-3. **Folding**
+1. **Casting**
+2. **Grinding**
+3. **Milling**
+4. **Degreasing**
+5. **Hot Rolling**
+6. **Annealing**
+7. **Pickling**
+8. **Punching**
+9. **Slitting**
+10. **Cold Rolling**
+11. **Finishing**
+12. **Transport**
 
 Each machine plays a crucial role in shaping, resizing, and finishing steel sheets to final product specifications. 
 
