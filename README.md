@@ -52,5 +52,25 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
                                     Cₚₖₗ = (Mean - LSL)/3σ
                                     Cₚₖᵤ = (USL - Mean)/3σ
 
+---
+
+## 🚵🏽 Case study: Steel Mnaufacturing Process Capability analysis
+### ☄️ Objectives
+- Monitor process performance for each machine individually
+- Identify variation sources: common vs. special cause
+- Evaluate process capability (Cₚ, Cₚₖ) for critical dimensions
+- Use Excel-based tools for SPC (Statistical Process Control)
+
+### 🛠 Machines & Process flow
+| *Machine* | *Process stage* | *Key Parameters* |
+|-----------|-----------------|------------------|
+| Rolling | Flattening steel | Sheet thickness (mm) |
+| Cutting | Dimensioning | Length & Width (mm) |
+| Folding | Final shaping | Edge condition (degrees) |
+
+Each stage is monitored for:
+- **Cycle time**
+- **Key output parameters**
+- **Rework/Rejection rates**
 
 
