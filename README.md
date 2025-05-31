@@ -20,3 +20,30 @@ Process capability is how well the process is meeting customer (Cx) needs and ex
 |4. Real-time values | 4. Intended result |
 |5. Derived from process data | 5. Defined by the CX |
 |6. Consists of Upper Control Limit (UCL) & Lower Control Limit (LCL)| 6. Consists of Upper Specification Limit (USL) & Lower Specification Limit (LSL) |
+If the control limits lie within the specification limits, the process could be considered capable. Conversely, if the specification limits lie within the control limits, the process will not meet CX requirements
+
+---
+
+## 💪🏼 Actions after comparing Natural process & Specification limits
+| *Condition* | *Action*|
+|-------------|---------|
+|1. Process limits fall within the specification limit |1. No action required|
+|2. Process spread and specification spread are approximately the same | 2. Adjust the process centering to bring the batch within specification limits |
+|3. Process limits fall outside the specification limits | 3. Reduce variability by partitioning and targetting the largest offender |
+Process capability is the actual variation in the process specification. To identify it, one needs to:
+    - Plan for data collection
+    - Collect data
+    - Plot and analyze the data
+The same data which is used for stability and normality analysis can also be used for capability
+
+---
+
+## 🙅🏼‍♂️ Process Capability Index - Cₚ
+Capability is how well or how poorly our current process meets customer requirements or needs. Generally, Cₚ:
+- Measures performance
+- Is the indicator of the capability of a process
+- Is the inherent variability of a characteristic of a process or product
+
+'Process Capability Index (Cₚ)  = (USL - LSL) &divide (6*σ)'
+
+
