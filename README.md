@@ -44,6 +44,9 @@ Capability is how well or how poorly our current process meets customer requirem
 - Is the indicator of the capability of a process
 - Is the inherent variability of a characteristic of a process or product
 
-'Process Capability Index (Cₚ)  = (USL - LSL) &divide (6*σ)'
+                    **Process Capability Index (Cₚ)  = (USL - LSL) &divide (6*σ)**
+The formula assumes the process is perfectly centered between upper and lower specification limits. It does not reflect how the process is actually performing in relation to the specification limits. 
+Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the degree to which a process meets or does not meet Cx requirements.
+
 
 
