@@ -102,12 +102,50 @@ Process Performance Index verifies if the sample generated from the process is c
 |---------------------------|--------------------------|
 | 1. Applies to a specific batch of output | 1. Applies to all batches of output |
 | 2. Based on sample standard deviation | 2. Based on population standard deviation |
-| 3. Long-term capability | 3. Short-term capability |
+| 3. Long-term capability (Zₗₜ) - actual performance of the process over time | 3. Short-term capability (Zₛₜ) - potential performance of the the process in control at any point of time |
 
-As the process variation reduces and/or as the process average reaches the target value (mean), the Cₚₘ or Pₚₘ index improves or becomes larger. The ideal value is 1.33 or greater
+As the process variation reduces and/or as the process average reaches the target value (mean), the Cₚₘ or Pₚₘ index improves or becomes larger. The ideal value is 1.33 or greater. A process shift (p = Zₗₜ - Zₛₜ) reflects how well process is controlled usually by a factor of 1.5
 
+- A typical process will shift by approximately 1.5 Std.Dev.
+- Long term variation is more than the short term variation
+- The difference between the short and long term shift is the Sigma shift
+- A shift may be due to different people, raw material, wear and tear, time and so on
+- The effects of process shift (p) become more negligible as the process capability increases. A six sigma process level of defects is not affected much by long-term variation
 
-## 🛋 Case study 2: Steel Manufacturing Process Performance Indices
-###
+### 🏺 Conversion of long-term to short-term capability
+|*Data collected*| *Short-term capability*| *Long-term capability*|
+|----------------|------------------------|-----------------------|
+|Short term data (Zₛₜ)| p| Add 1.5 |
+|Long-term data (Zₗₜ) | subtract 1.5 | p| 
 
+|*Short-term variation* | *Long-term variation*|
+|-----------------------|----------------------|
+| 1. Attributed to common cause variation | 1. Attributed to both common cause and special cause variation |
+| 2. Variance inherent in the process | 2. -- |
+| 3. Shows variance with subgroups | 3. Shows variance within & between subgroups |
+| 4. Captures common cause variation | 4. Increases due to special causes |
+| 5. Common causes are difficult to identify and correct and may require process redesign | 5. Special causes have to be identified and corrected for improvement |
 
+---
+
+## 🚪 Repository structure
+CharacteristicValue_dataset.xlsx
+- CharacteristicValueRule
+
+---
+
+## 🎏 Excel Functionalities used
+1. Pivot Tables
+2. AVERAGE() function
+3. STDDEV.S() function
+4. STDDEV.P() function
+5. RANDBETWEEN() function
+6. RAND() function
+
+---
+
+## 🧪 Requirements
+- Microsoft Excel 2016 or later
+- Basic understanding of Process variations in Manufacturing
+
+*Quality is never an accident. It is always the result of intelligent effort* - John Ruskin
