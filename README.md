@@ -1,4 +1,4 @@
-    # 🏊🏻 Process Capability Indices and interpretation in Manufacturing operations using Microsoft Excel
+# 🏊🏻 Process Capability Indices and interpretation in Manufacturing operations using Microsoft Excel
 This repository represents a structured analysis of process capability study in a steel manufacturing workflow involving sequential machines for: 
 
 1. **Casting**
