@@ -141,6 +141,7 @@ CharacteristicValue_dataset.xlsx
 4. STDDEV.P() function
 5. RANDBETWEEN() function
 6. RAND() function
+7. Histogram charts
 
 ---
 
