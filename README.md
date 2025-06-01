@@ -65,6 +65,7 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
 1. Cₚₖ < Cₚ => Mean is not centered between specificaiton limits
 2. Cₚₖ = Cₚ => Mean is centered between specification limits
 3. Cₚₖ > Cₚ => Mean exceeds specification limits
+\'Note: Cₚₖ cannot be larger than Cₚ because Cₚ represents the maximum capability with the current process variation'\
 ---
 
 ## 🚵🏽 Case study: Steel Mnaufacturing Process Capability analysis
