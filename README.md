@@ -96,7 +96,15 @@ To select a characteristic for a process capability study, it should meet the fo
 Process Performance Index verifies if the sample generated from the process is capable of meeting the customer requirements. It is only used when process control cannot be evaluated
 - Process Performance (Pₚ)
 - Process Performance Index (Pₚₖ)
+- Process Capability Index (Pₚₘ/Cₚₘ)
 
+|*Process Performance Index*|*Process Capability Index*|
+|---------------------------|--------------------------|
+| 1. Applies to a specific batch of output | 1. Applies to all batches of output |
+| 2. Based on sample standard deviation | 2. Based on population standard deviation |
+| 3. Long-term capability | 3. Short-term capability |
+
+As the process variation reduces and/or as the process average reaches the target value (mean), the Cₚₘ or Pₚₘ index improves or becomes larger. The ideal value is 1.33 or greater
 
 
 ## 🛋 Case study 2: Steel Manufacturing Process Performance Indices
