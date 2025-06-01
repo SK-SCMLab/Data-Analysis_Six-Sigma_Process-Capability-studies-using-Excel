@@ -70,7 +70,7 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
 6. Cₚₖ >= 2.0 => World-class
 ---
 
-## 🚵🏽 Case study: Steel Mnaufacturing Process Capability analysis
+## 🚵🏽 Case study 1: Steel Mnaufacturing Process Capability analysis
 ### ☄️ Objectives
 - Monitor process performance for each machine individually
 - Identify variation sources: common vs. special cause
@@ -78,7 +78,7 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
 - Use Excel-based tools for SPC (Statistical Process Control)
 
 ### 🔬 Interpretation
-From the excel analysis: Cₚₖ = Cₚ = 0.23570226
+From the excel analysis: Cₚₖ = Cₚ = 0.33
 The process is not capable in regards to true performance even though the mean looks centered
 - The team must focus on reducing variation and work with operations to center the average output
 
@@ -90,5 +90,16 @@ To select a characteristic for a process capability study, it should meet the fo
 - Operating conditions that affect the characteristic should be defined and controlled
 - Determined by CX requirement or industry standards
 
+---
+
+## 🪄 Process Performance Indices
+Process Performance Index verifies if the sample generated from the process is capable of meeting the customer requirements. It is only used when process control cannot be evaluated
+- Process Performance (Pₚ)
+- Process Performance Index (Pₚₖ)
+
+
+
+## 🛋 Case study 2: Steel Manufacturing Process Performance Indices
+###
 
 
