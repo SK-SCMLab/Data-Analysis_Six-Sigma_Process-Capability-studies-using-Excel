@@ -65,8 +65,9 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
 1. Cₚₖ < Cₚ => Mean is not centered between specificaiton limits
 2. Cₚₖ = Cₚ => Mean is centered between specification limits
 3. Cₚₖ > Cₚ => Mean exceeds specification limits
-
-Note: Cₚₖ cannot be larger than Cₚ because Cₚ represents the maximum capability with the current process variation
+4. Cₚₖ < 1 => Action required
+5. Cₚₖ > 1.33 => Acceptable
+6. Cₚₖ >= 2.0 => World-class
 ---
 
 ## 🚵🏽 Case study: Steel Mnaufacturing Process Capability analysis
@@ -76,8 +77,18 @@ Note: Cₚₖ cannot be larger than Cₚ because Cₚ represents the maximum cap
 - Evaluate process capability (Cₚ, Cₚₖ) for critical dimensions
 - Use Excel-based tools for SPC (Statistical Process Control)
 
-### 🔬 Analysis
+### 🔬 Interpretation
+From the excel analysis: Cₚₖ = Cₚ = 0.23570226
+The process is not capable in regards to true performance even though the mean looks centered
+- The team must focus on reducing variation and work with operations to center the average output
 
+In the sample data, it is assumed that 'Thickness' as a key factor in determining the quality of the produce
+
+To select a characteristic for a process capability study, it should meet the following requirements:
+- Should indicate a key factor in the quality of produce or process
+- Should influence the value of the characteristic through process adjustments
+- Operating conditions that affect the characteristic should be defined and controlled
+- Determined by CX requirement or industry standards
 
 
 
