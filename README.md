@@ -1,4 +1,4 @@
-# 🏊🏻 Process Capability Indices and interpretation in Manufacturing operations using Microsoft Excel
+    # 🏊🏻 Process Capability Indices and interpretation in Manufacturing operations using Microsoft Excel
 This repository represents a structured analysis of process capability study in a steel manufacturing workflow involving sequential machines for: 
 
 1. **Casting**
@@ -61,6 +61,10 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
                                     Cₚₖₗ = (Mean - LSL)/3σ
                                     Cₚₖᵤ = (USL - Mean)/3σ
 
+*Conditions*
+1. Cₚₖ < Cₚ => Mean is not centered between specificaiton limits
+2. Cₚₖ = Cₚ => Mean is centered between specification limits
+3. Cₚₖ > Cₚ => Mean exceeds specification limits
 ---
 
 ## 🚵🏽 Case study: Steel Mnaufacturing Process Capability analysis
@@ -69,6 +73,9 @@ Meanwhile, Process Capability (Cₚₖ) is developed to objectively measure the 
 - Identify variation sources: common vs. special cause
 - Evaluate process capability (Cₚ, Cₚₖ) for critical dimensions
 - Use Excel-based tools for SPC (Statistical Process Control)
+
+### 🔬 Analysis
+
 
 
 
