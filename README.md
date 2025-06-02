@@ -142,12 +142,12 @@ CharacteristicValue_dataset.xlsx
 5. RANDBETWEEN() function
 6. RAND() function
 7. Histogram charts
-
 *Customized formulas used*
 Pₚ: =LAMBDA(USL,LSL,SIGMA, (USL-LSL)/(6xSIGMA))
 Pₚₖ: =LAMBDA(USL,LSL,MEAN,SIGMA, MIN((USL-MEAN)/(3xSIGMA), (MEAN-LSL)/(3xSIGMA)))
 Cₚₖ: =LAMBDA(USL,LSL,Mean,SIGMA, MIN((USL-Mean)/(3xSIGMA), (Mean-LSL)/(3xSIGMA)))
 Cₚ: =LAMBDA(USL,LSL,SIGMA, (USL-LSL)/(6xSIGMA))
+
 ---
 
 ## 🧪 Requirements
