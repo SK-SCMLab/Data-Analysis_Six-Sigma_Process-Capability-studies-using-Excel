@@ -155,4 +155,4 @@ CharacteristicValue_dataset.xlsx
 - Microsoft Excel 2016 or later
 - Basic understanding of Process variations in Manufacturing
 
-*Quality is never an accident. It is always the result of intelligent effort* - John Ruskin
+*"Quality is never an accident. It is always the result of intelligent effort" - John Ruskin*
